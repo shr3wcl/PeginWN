@@ -32,7 +32,7 @@ You can install pwntools with pip:
 ## Resources
 
 This section provides links to tutorials, books, and websites where you can learn more about binary exploitation:
-- [LiveOverflow Binary Exploitation Playlist](https://youtube.com/playlist?list=PLhixgUqwRTjx2BmNF5-GddyqZcizwLLGP)
+- [LiveOverflow Binary Exploitation Playlist](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
 - "Hacking: The Art of Exploitation" by Jon Erickson
 - [pwn.college](https://pwn.college/)
 - [Root-me:App-System](https://www.root-me.org/en/Challenges/App-System/)
