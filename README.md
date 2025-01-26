@@ -43,12 +43,25 @@ This section provides links to tutorials, books, and websites where you can lear
 
 Here's a list of common vulnerabilities you'll learn about in this repository:
 
-| Vulnerability Type | Description | Link |
-|--------------------|-------------| ---- |
-| Buffer Overflow    | Occurs when data exceeds the buffer's boundary and overwrites adjacent memory. | [Link](./Stack-Overflow-Basic/) |
-| Format String      | Exploits involving the misuse of the format string functions like `printf`. | |
-| Integer Overflow   | Happens when an arithmetic operation attempts to create a numeric value that is outside the range that can be represented with a given number of digits. | |
-| Use After Free     | Accessing memory after it has been freed, which can lead to arbitrary code execution. | |
+| Vulnerability Type                | Description                                                                                                                                           | Link                                   |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| Buffer Overflow                   | Occurs when data exceeds the buffer's boundary and overwrites adjacent memory.                                                                      | [Link](./Stack-Overflow-Basic/)        |
+| Format String                     | Exploits involving the misuse of the format string functions like `printf`.                                                                         | [Link](./Format-String/)               |
+| Integer Overflow                  | Happens when an arithmetic operation attempts to create a numeric value that is outside the range that can be represented with a given number of digits.| [Link](./Integer-Overflow/)            |
+| Use After Free                    | Accessing memory after it has been freed, which can lead to arbitrary code execution.                                                                | [Link](./Use-After-Free/)              |
+| Heap Overflow                     | Similar to buffer overflow but occurs in the heap memory, allowing attackers to overwrite important data structures.                                  | [Link](./Heap-Overflow/)               |
+| Double Free                       | The program frees the same memory location twice, which can lead to memory corruption and arbitrary code execution.                                   | [Link](./Double-Free/)                  |
+| Return Oriented Programming (ROP) | A technique that allows an attacker to execute code by chaining together small sequences of instructions already present in the binary.                | [Link](./ROP/)                          |
+| Stack Canary Bypass               | Techniques used to bypass stack canaries, which are used to detect buffer overflows on the stack.                                                    | [Link](./Stack-Canary-Bypass/)          |
+| Arbitrary Write                   | Allows an attacker to write data to an arbitrary location in memory, which can be exploited to modify program behavior or execute code.                 | [Link](./Arbitrary-Write/)              |
+| Type Confusion                    | Occurs when a program mistakenly treats a piece of data as a different type, leading to unexpected behavior or vulnerabilities.                        | [Link](./Type-Confusion/)               |
+| Uninitialized Memory Read         | Reading from memory that has not been initialized, which can leak sensitive information or cause undefined behavior.                                     | [Link](./Uninitialized-Memory-Read/)    |
+| Null Byte Injection               | Inserting null bytes (`\x00`) into inputs to manipulate string handling functions and potentially bypass security checks.                              | [Link](./Null-Byte-Injection/)          |
+| Memory Leak                       | Occurs when a program fails to release memory that is no longer needed, potentially leading to resource exhaustion and other issues.                      | [Link](./Memory-Leak/)                   |
+| Race Conditions                   | Exploiting the timing of actions in concurrent environments to cause unexpected behavior or gain unauthorized access.                                   | [Link](./Race-Conditions/)               |
+| Stack Smashing                    | A specific type of buffer overflow that targets the stack, potentially allowing attackers to overwrite return addresses and execute arbitrary code.       | [Link](./Stack-Smashing/)                |
+| Command Injection                 | Although more common in web applications, command injection can also occur in binary applications if user input is improperly handled and passed to system commands.| [Link](./Command-Injection/)            |
+| Shellcode                 | Shellcode | [Link](./Shellcode/) |
 
 ## Exercises
 
